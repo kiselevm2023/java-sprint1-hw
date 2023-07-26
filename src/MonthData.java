@@ -1,5 +1,5 @@
 public class MonthData {
-    int[] days = new int[30];
+    final int[] days = new int[30];
 
     void printDaysAndStepsFromMonth(){
         for(int i = 0; i < days.length; i ++){

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StepTracker {
     Scanner scanner;
-    MonthData monthToData[] = new MonthData[12];
+    final MonthData monthToData[] = new MonthData[12];
     Converter conv = new Converter();
     int goalByStepsPerDay = 10000;
     StepTracker(Scanner scan) {
